@@ -3,11 +3,12 @@ import os
 def rename():
 	SRC = "./"
 	DST = "./"
+	ceiling = 20
 	# read file in this dir
-	for i in range (1,19):
+	for i in range (2,ceiling):
 		try:
-			file = SRC + `19-i`.zfill(2) + '.jpg'
-			newname = DST + `19-i+1`.zfill(2) + '.jpg'
+			file = SRC + `ceiling-i`.zfill(2) + '.jpg'
+			newname = DST + `ceiling-i+1`.zfill(2) + '.jpg'
 			os.rename(file,newname)
 			print (file)
 		except IOError as e:
