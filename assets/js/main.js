@@ -150,7 +150,7 @@ var main = (function($) { var _ = {
 				'<div id="viewer">' +
 					'<div class="inner">' +
 						'<div class="nav-next"></div>' +
-						'<div class="nav-previous"></div>' +
+						// '<div class="nav-previous"></div>' +
 						'<div class="toggle"></div>' +
 					'</div>' +
 				'</div>'
