@@ -5,7 +5,7 @@ import cv2
 SRC = "./images/fulls/"
 DST = "./images/thumbs/"
 start = 1
-end = 22
+end = 17
 W = 360
 HoW = 0.625
 
